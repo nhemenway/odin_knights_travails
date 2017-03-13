@@ -53,7 +53,7 @@ class Knight
 
   def show_moves(moves, count)
     puts "You made it in #{count} moves!"
-    p moves.each { |move| move}
+    moves.each { |move| print move.to_s + "\n" }
   end
 
 
